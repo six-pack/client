@@ -3,8 +3,11 @@ flask-login
 paginate
 sqlalchemy
 pycountry
-python-gnupg>=0.3.7
+#Python-gnupg is now shipped with the client code until the verifiy keyserver support is fixed in the mainn branch
+#python-gnupg>=0.3.7
 pysocks>=1.5.4
-paho-mqtt
+#Paho is now shipped with the client code until the main branch supports SOCKS
+#paho-mqtt
+# PIL is required, this may be replaced with Pillow
 pil
 
